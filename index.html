@@ -8,6 +8,101 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <form action="post">
+      <div class="contact">
+        <h3>Contact İnformation</h3>
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder=" Enter your email.."
+        />
+        <label for="phone">Phone</label>
+        <input
+          type="number"
+          name="phone"
+          id="phone"
+          placeholder="Enter your phone.."
+        />
+      </div>
+
+      <div class="shipping">
+        <h3>shipping Adress</h3>
+        <label for="name">Full name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your Full name..."
+        />
+        <label for="name">Adress</label>
+        <input
+          type="text"
+          name="adress"
+          id="adress"
+          placeholder="Enter your adress..."
+        />
+        <label for="name">Full name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your city..."
+        />
+      </div>
+
+      <div class="big-country">
+        <div class="country">
+          <label for="country"></label>
+          <select name="country" id="country">
+            <option selected-value="Turkey">Turkey</option>
+            <option value="Albania">Albania</option>
+            <option value="Anguilla">Anguilla</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Austria">Austria</option>
+            <option value="Azerbaijan">Azerbaijan</option>
+            <option value="Bahamas">Bahamas</option>
+            <option value="Belgium">Belgium</option>
+            <option value="Brazil">Brazil</option>
+            <option value="Bulgaria">Bulgaria</option>
+            <option value="Canada">Canada</option>
+            <option value="Cape Verde">Cape Verde</option>
+            <option value="China">China</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Cuba">Cuba</option>
+            <option value="Cyprus">Cyprus</option>
+            <option value="Denmark">Denmark</option>
+            <option value="Dominician Republic">Dominician Republic</option>
+            <option value="Estonia">Estonia</option>
+            <option value="Finland">Finland</option>
+            <option value="France">France</option>
+            <option value="Germany">Germany</option>
+            <option value="Georgia">Georgia</option>
+            <option value="Greece">Greece</option>
+            <option value="Hong Kong">Hong Kong</option>
+            <option value="Hungary">Hungary</option>
+            <option value="İceland">İceland</option>
+            <option value="Italy">Italy</option>
+            <option value="Japan">Japan</option>
+            <option value="Kazakhstan">Kazakhstan</option>
+            <option value="Luxemburg">Luxemburg</option>
+            <option value="Maldives">Maldives</option>
+            <option value="Malta">Malta</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Netherlands">Netherlands</option>
+            <option value="Norway">Norway</option>
+            <option value="Poland">Poland</option>
+            <option value="UK">UK</option>
+            <option value="ABD">ABD</option>
+          </select>
+        </div>
+        <div class="post-code"></div>
+      </div>
+
+      <div class="continue"></div>
+    </form>
+
     <script src="app.js"></script>
   </body>
 </html>
