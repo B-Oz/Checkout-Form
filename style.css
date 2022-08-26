@@ -10,7 +10,7 @@
 header {
   text-align: center;
   font-weight: 900;
-  margin-top: 4rem;
+  margin-bottom: 1rem;
 }
 
 /* -------------CHECKOUT FORM---------- */
@@ -26,16 +26,17 @@ header {
 
 .form {
   width: 30%;
-  padding: 1rem;
-  margin: 1rem 4rem;
-  border: 2px solid red;
+  /* padding: 1rem; */
+  margin: 0rem 2rem;
+  /* border: 2px solid red; */
+  opacity: 0.8;
 }
 
 input,
 select {
   border: none;
   outline: none;
-  width: 85%;
+  width: 100%;
   max-width: 90%;
   height: 1.6rem;
 }
@@ -55,9 +56,9 @@ h3 {
   border-radius: 0.4rem;
 }
 .contact,
-.shipping {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+.shipping-form {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .check-box {
@@ -85,8 +86,11 @@ h3 {
 }
 
 .country {
-  width: 22vw;
+  width: 24vw;
   margin-right: 1.5rem;
+}
+.input-box select {
+  width: 85%;
 }
 .post-code {
   width: 35vw;
@@ -125,8 +129,8 @@ h3 {
 }
 .object {
   display: flex;
-  padding: 0rem 1rem;
-  width: 35%;
+  padding: 0rem 0.5rem;
+  width: 8vw;
   height: 18vh;
 }
 .product {
@@ -136,7 +140,8 @@ h3 {
   align-items: center;
   width: 100%;
   height: 100%;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
+  opacity: 0.95;
 }
 
 .price {
@@ -145,6 +150,9 @@ h3 {
   justify-content: space-evenly;
   width: 50%;
   margin-right: 2rem;
+  padding-right: 5rem;
+  margin-top: 0.7rem;
+  opacity: 0.8;
 }
 
 .product-piece {
@@ -154,17 +162,49 @@ h3 {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 80%;
+  width: 70%;
   padding: 0.4rem;
-  margin: 1rem auto;
+  margin-top: 1.3rem;
   font-size: 14px;
+}
+.product-piece i:hover {
+  cursor: pointer;
 }
 
 .price {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: left;
   /* align-items: center; */
-  padding: 0rem 2rem;
+  padding: 1rem 1rem;
+}
+
+.span {
+  margin: 0.5rem 0rem;
+}
+
+.sale-price {
+  color: orangered;
+  font-weight: bolder;
+  margin-right: 0.2rem;
+}
+.first-price {
+  text-decoration: line-through;
+  font-size: 12px;
+}
+
+.shipping,
+.total {
+  display: flex;
+  /* border: 1px solid red; */
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 1rem;
+  margin-bottom: 0.3rem;
+  border-top: 1px solid rgb(142, 140, 140);
+}
+
+.total {
+  margin-bottom: 1rem;
 }
