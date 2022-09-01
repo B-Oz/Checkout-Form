@@ -52,6 +52,7 @@ h3 {
   border-radius: 0.4rem;
   display: flex;
   flex-wrap: nowrap;
+  align-items: center;
 }
 .contact,
 .shipping-form {
